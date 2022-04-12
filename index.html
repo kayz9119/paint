@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="paint.css">
+</head>
+<body>
+    <div id="inputs">
+        <input type="color" value="#fff" id="strokecolor">
+        <input type="number" name="" value="2" id="strokesize" max="10">
+        <select name="" id="tool">
+            <option value="stroke">Çizgi Aracı</option>
+            <option value="yazi">Yazı</option>
+        </select>
+        <input type="text" placeholder="Yazdırmak istediğin yazı" id="text">
+        <input type="number" placeholder="yazı boyutu" id="textsize">
+    </div>
+    <canvas id="canv"></canvas>
+    
+    <script src="./paint.js"></script>
+</body>
+</html>
